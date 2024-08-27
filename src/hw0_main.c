@@ -19,8 +19,8 @@ scanf(" %c", &choice); //this command will erase whitespace in the token selecti
 
 */
 
-int main() {
-    
+int main() 
+{
     return 0;
 }
 
