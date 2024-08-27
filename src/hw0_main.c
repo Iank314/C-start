@@ -2,12 +2,14 @@
 #define ROWS 5
 #define COLS 5
 
-char board[ROWS][COLS] = {
+char board[ROWS][COLS] = 
+{
     {'x', 'x', 'x', '-', 'o'}, 
     {'o', 'x', 'x', 'o', 'o'}, 
     {'o', 'x', '-', 'x', 'x'}, 
     {'o', '-', 'x', 'x', '-'}, 
-    {'x', 'o', 'x', 'o', 'o'}};
+    {'x', 'o', 'x', 'o', 'o'}
+};
 
 
 
