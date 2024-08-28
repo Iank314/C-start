@@ -17,11 +17,12 @@ void print()
     {
         for(int j =0; j < COLS; j++)
         {
-            printf("%c" + board[i][j]);
+            printf("%c ", board[i][j]);
         }
+        printf("\n");
     }
 }
-
+ 
 /* Hint:
 
 scanf(" %c", &choice); //this command will erase whitespace in the token selection
