@@ -11,7 +11,16 @@ char board[ROWS][COLS] =
     {'x', 'o', 'x', 'o', 'o'}
 };
 
-
+void print()
+{
+    for(int i = 0; i < ROWS; i++)
+    {
+        for(int j =0; j < COLS; j++)
+        {
+            printf("%c" + board[i][j]);
+        }
+    }
+}
 
 /* Hint:
 
@@ -21,6 +30,7 @@ scanf(" %c", &choice); //this command will erase whitespace in the token selecti
 
 int main() 
 {
+    print();
     return 0;
 }
 
