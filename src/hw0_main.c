@@ -40,8 +40,10 @@ int isCellEmpty(int row, int col)
 
 int isBoardFull() 
 {
-    for(int i = 0; i < ROWS; i++) {
-        for(int j = 0; j < COLS; j++) {
+    for(int i = 0; i < ROWS; i++) 
+    {
+        for(int j = 0; j < COLS; j++) 
+        {
             if(board[i][j] == '-') 
             {
                 return 0;
@@ -111,7 +113,8 @@ void gamePlay()
     }
 }
 
-int main() {
+int main() 
+{
     print();
     gamePlay();
     return 0;
